@@ -30,6 +30,7 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   margin-right: 25px;
 }
@@ -55,4 +56,35 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.learn-more {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.get-details {
+  background-color: #037ffc;
+  color: #ffffff;
+  font-size: 15px;
+  border-radius: 5px;
+  border-width: 0;
+  padding: 10px;
+}
+
+.old-age-people-treatment-container {
+  background-image: linear-gradient(to bottom, #fcd303, #73726f);
+  border-color: #ffffff;
+  border-width: 2px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.our-new-feature {
+  color: #ffffff;
+  font-size: 30px;
 }
