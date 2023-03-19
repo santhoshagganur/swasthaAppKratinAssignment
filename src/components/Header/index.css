@@ -1,0 +1,23 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+
+.app-name {
+  color: #3fe844;
+  font-family: Roboto;
+  font-size: 40px;
+}
+
+.app-features-container {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-item {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #474a47;
+  margin-right: 10px;
+}
