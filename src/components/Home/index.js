@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom'
+
 import Header from '../Header'
 import './index.css'
 
@@ -31,6 +33,11 @@ const Home = () => (
             some daily guide you to maintain your blood pressure without giving
             any medication. If it does not work then we can provide medication.
           </p>
+          <div className="learn-more">
+            <button className="get-details" type="button">
+              Get Started
+            </button>
+          </div>
         </li>
         <li className="home-our-features">
           <img
@@ -43,6 +50,11 @@ const Home = () => (
             Learn about diabetes. Step 2: Know your diabetes ABCs Step 3: Learn
             how to live with diabetes Step 4: Get routine care to stay healthy
           </p>
+          <div className="learn-more">
+            <button className="get-details" type="button">
+              Get Started
+            </button>
+          </div>
         </li>
         <li className="home-our-features">
           <img
@@ -56,6 +68,11 @@ const Home = () => (
             food, and daily checkups, and workouts these are some of ideal
             things to avoid the heart attacks. we can treat you best way.
           </p>
+          <div className="learn-more">
+            <button className="get-details" type="button">
+              Get Started
+            </button>
+          </div>
         </li>
         <li className="home-our-features">
           <img
@@ -69,8 +86,27 @@ const Home = () => (
             overall health and test results. Now a days we see asthma in
             children, we treat as best possible.
           </p>
+          <div className="learn-more">
+            <button className="get-details" type="button">
+              Get Started
+            </button>
+          </div>
         </li>
       </ul>
+      <div className="old-age-people-treatment-container">
+        <h1 className="our-new-feature">
+          We come up with a new innovation we thought that all health issues are
+          not only treated by medication so we launching this feature for above
+          65 years old people
+        </h1>
+        <Link to="./above65">
+          <div className="learn-more">
+            <button className="get-details" type="button">
+              Get Started
+            </button>
+          </div>
+        </Link>
+      </div>
     </div>
   </>
 )
