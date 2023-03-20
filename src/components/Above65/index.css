@@ -52,3 +52,14 @@
   align-items: flex-start;
 }
 
+@media screen and (max-width: 991px) {
+  .suggestion-heading {
+    font-size: 25px;
+  }
+  .suggestion-description {
+    font-size: 15px;
+  }
+  .suggestion-main-heading {
+    font-size: 35px;
+  }
+}
