@@ -11,9 +11,6 @@ const Header = () => (
       <Link to="/above65">
         <li className="nav-item"> Above65 </li>
       </Link>
-      <Link to="/contact">
-        <li className="nav-item"> Contact </li>
-      </Link>
     </ul>
   </nav>
 )
