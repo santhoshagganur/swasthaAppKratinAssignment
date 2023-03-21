@@ -38,7 +38,7 @@ const Home = () => (
           <div className="learn-more">
             <Link to="/OnlineLabs">
               <button className="get-details" type="button">
-                Get Started
+                Take a test
               </button>
             </Link>
           </div>
@@ -58,7 +58,7 @@ const Home = () => (
           <div className="learn-more">
             <Link to="/OnlineLabs">
               <button className="get-details" type="button">
-                Get Started
+                Take a test
               </button>
             </Link>
           </div>
@@ -79,7 +79,7 @@ const Home = () => (
           <div className="learn-more">
             <Link to="/OnlineLabs">
               <button className="get-details" type="button">
-                Get Started
+                Take a test
               </button>
             </Link>
           </div>
@@ -100,7 +100,7 @@ const Home = () => (
           <div className="learn-more">
             <Link to="/OnlineLabs">
               <button className="get-details" type="button">
-                Get Started
+                Take a test
               </button>
             </Link>
           </div>
