@@ -40,6 +40,7 @@ class OnlineLabs extends Component {
   }
 
   saveUserDetails = event => {
+    console.log(event)
     event.preventDefault()
     const isValidFirstName = this.checkFirstName()
     const isValidCity = this.checkCity()
@@ -62,7 +63,9 @@ class OnlineLabs extends Component {
         alt="success"
         className="success-image"
       />
-      <h1> Our health advisor will contact you with in 15 Mins! </h1>
+      <h1 className="success-status">
+        Our health advisor will contact you with in 15 Mins!
+      </h1>
     </div>
   )
 
@@ -99,7 +102,7 @@ class OnlineLabs extends Component {
         onChange={this.changeUserContact}
       />
       <div className="book-your-test-container">
-        <button type="button" className="book-test">
+        <button type="submit" className="book-test">
           Book Your Test
         </button>
       </div>
