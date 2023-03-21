@@ -70,6 +70,18 @@
   background-size: cover;
 }
 
+.success-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.success-status {
+  font-family: Roboto;
+  font-size: 30px;
+  color: #5ffa16;
+}
+
 @media screen and (max-width: 991px) {
   .online-labs-card-container {
     width: 80vw;
@@ -86,5 +98,8 @@
   }
   .input-element {
     width: 200px;
+  }
+  .success-status {
+    font-size: 20px;
   }
 }
