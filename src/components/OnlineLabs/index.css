@@ -65,6 +65,11 @@
   padding: 10px;
 }
 
+.success-image {
+  height: 50px;
+  background-size: cover;
+}
+
 @media screen and (max-width: 991px) {
   .online-labs-card-container {
     width: 80vw;
