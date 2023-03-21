@@ -32,11 +32,15 @@ const Home = () => (
             help you to maintain your blood pressure. Firstly we can provide
             some daily guide you to maintain your blood pressure without giving
             any medication. If it does not work then we can provide medication.
+            our 24 * 7 online labs will help you to maintain your blood
+            pressure.
           </p>
           <div className="learn-more">
-            <button className="get-details" type="button">
-              Get Started
-            </button>
+            <Link to="/OnlineLabs">
+              <button className="get-details" type="button">
+                Get Started
+              </button>
+            </Link>
           </div>
         </li>
         <li className="home-our-features">
@@ -49,11 +53,14 @@ const Home = () => (
             Generally people do not know the Diabetes how to control it. Step 1:
             Learn about diabetes. Step 2: Know your diabetes ABCs Step 3: Learn
             how to live with diabetes Step 4: Get routine care to stay healthy
+            our 24 * 7 online labs will help you to maintain your diabetes.
           </p>
           <div className="learn-more">
-            <button className="get-details" type="button">
-              Get Started
-            </button>
+            <Link to="/OnlineLabs">
+              <button className="get-details" type="button">
+                Get Started
+              </button>
+            </Link>
           </div>
         </li>
         <li className="home-our-features">
@@ -66,12 +73,15 @@ const Home = () => (
             The heart attacks most commonly we see in our surroundings, there
             are more chances to avoid the heart attacks we can maintain our
             food, and daily checkups, and workouts these are some of ideal
-            things to avoid the heart attacks. we can treat you best way.
+            things to avoid the heart attacks. we can treat you best way. our 24
+            * 7 online labs will help you to maintain your health.
           </p>
           <div className="learn-more">
-            <button className="get-details" type="button">
-              Get Started
-            </button>
+            <Link to="/OnlineLabs">
+              <button className="get-details" type="button">
+                Get Started
+              </button>
+            </Link>
           </div>
         </li>
         <li className="home-our-features">
@@ -84,12 +94,15 @@ const Home = () => (
             An asthma diagnosis is based on several factors, including a
             detailed medical history, a physical exam, your symptoms, and
             overall health and test results. Now a days we see asthma in
-            children, we treat as best possible.
+            children, we treat as best possible. our 24 * 7 online labs will
+            help you to maintain your health.
           </p>
           <div className="learn-more">
-            <button className="get-details" type="button">
-              Get Started
-            </button>
+            <Link to="/OnlineLabs">
+              <button className="get-details" type="button">
+                Get Started
+              </button>
+            </Link>
           </div>
         </li>
       </ul>
@@ -99,7 +112,7 @@ const Home = () => (
           not only treated by medication so we launching this feature for above
           65 years old people
         </h1>
-        <Link to="./above65">
+        <Link to="/above65">
           <div className="learn-more">
             <button className="get-details" type="button">
               Get Started
