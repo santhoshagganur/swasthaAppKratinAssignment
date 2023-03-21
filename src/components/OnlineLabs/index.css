@@ -1,0 +1,85 @@
+.online-labs-container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.online-labs-card-container {
+  background-color: #f5f293;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  width: 60vw;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.online-labs-heading {
+  font-family: Roboto;
+  font-size: 40px;
+  color: #ed7c13;
+  text-align: center;
+}
+
+.online-labs-description {
+  font-family: Roboto;
+  font-size: 30px;
+  color: #9c9894;
+}
+
+.label-element {
+  font-family: Roboto;
+  font-size: 20px;
+  color: #696864;
+  margin-bottom: 10px;
+}
+
+.input-element {
+  background-color: transparent;
+  border-width: 1px;
+  padding-left: 10px;
+  height: 30px;
+  width: 400px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.book-your-test-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.book-test {
+  background-color: #2f9eed;
+  color: #ffffff;
+  font-size: 15px;
+  border-width: 0;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 991px) {
+  .online-labs-card-container {
+    width: 80vw;
+    padding: 15px;
+  }
+  .online-labs-heading {
+    font-size: 30px;
+  }
+  .online-labs-description {
+    font-size: 20px;
+  }
+  .label-element {
+    font-size: 15px;
+  }
+  .input-element {
+    width: 200px;
+  }
+}
